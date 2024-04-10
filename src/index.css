@@ -1,0 +1,42 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Common css */
+.flex {
+  display: flex;
+}
+
+.gap-12 {
+  gap: 12px;
+}
+
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.flex-column {
+  flex-direction: column;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}

@@ -1,0 +1,17 @@
+.book-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+}
+
+.book {
+    padding: 20px 12px;
+    transition: all 0.5s;
+    position: relative;
+    height: 100%;
+}
+
+.book:hover {
+    transform: scale(1.05);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

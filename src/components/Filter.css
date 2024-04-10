@@ -1,0 +1,11 @@
+.filter-container {
+    position: sticky;
+    top: 12px;
+    align-self: start;
+}
+
+.filter-group {
+    padding: 20px 20px 20px 0;
+    max-height: calc(50vh - 40px);
+    overflow-y: scroll;
+}

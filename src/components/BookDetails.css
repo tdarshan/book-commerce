@@ -1,0 +1,61 @@
+.book-info {
+    display: grid;
+    grid-template-columns: 25% 70%;
+    column-gap: 5%;
+    padding: 3% 5%;
+}
+
+.image-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-title img {
+    padding: 12px 14px;
+}
+
+.image-title h3 {
+    text-align: center;
+    padding: 12px 0;
+}
+
+.image-title h5 {
+    text-align: center;
+    color: #5a5a5a;
+}
+
+
+.info {
+    padding: 12px 24px;
+}
+
+.categories {
+    display: flex;
+    margin: 20px 0;
+    gap: 12px;
+}
+
+.categories span {
+    padding: 4px 8px;
+    background: #646464;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.authors {
+    display: flex;
+    margin: 20px 0;
+    gap: 12px;
+}
+
+.authors p {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.authors span {
+    padding: 4px 16px;
+    border-radius: 4px;
+    background-color: rebeccapurple;
+    color: #fff;
+}

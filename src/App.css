@@ -1,0 +1,8 @@
+.listing-container {
+  display: grid;
+  /* display: flex; */
+  align-items: start;
+  grid-template-columns: 17% 80%;
+  column-gap: 3%;
+  padding: 20px 32px;
+}
