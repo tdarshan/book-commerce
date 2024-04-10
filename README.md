@@ -1,8 +1,18 @@
-# React + Vite
+Live site URL : https://book-commerce-kappa.vercel.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+```
+Set up project in your system
 
-Currently, two official plugins are available:
+1. Run this command in your command prompt/terminal/powershell on any specific folder : 
+    git clone https://github.com/tdarshan/book-commerce.git
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. After successful  cloning, navigate to the "book-commerce" and change your present working directory to "book-commerce"
+    eg. : cd book-commerce/
+
+3. Run the following commands to install all dependencies:
+    npm install
+
+4.  Start the server by running the command :
+    npm run dev
+
+```
