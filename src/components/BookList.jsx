@@ -19,7 +19,7 @@ const BookList = () => {
             return (<div key={book.id}>
                 <Link to={`/book/${book.id}`} className="book flex gap-12 flex-column items-center justify-center" >
                     <img src={book?.volumeInfo?.imageLinks?.thumbnail} height="250" alt={book?.volumeInfo?.title} />
-                    <h4 className="text-center">{ book?.volumeInfo?.title }</h4>
+                    <h4 className="text-center text-dark">{ book?.volumeInfo?.title }</h4>
                     {/* <p> { book?.volumeInfo?.averageRating } </p> */}
                 </Link>
             </div>)

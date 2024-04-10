@@ -27,7 +27,9 @@ const BookDetails = () => {
 
     return (
         <>
-            <Link to={'/'}>Go Back</Link>
+            <Link to={'/'} className="detail-back-button">
+                <i className="fa-solid fa-arrow-left-long"></i>
+            </Link>
             <div className="book-info" > 
                 <div className="image-title">
                     <img src={book?.volumeInfo?.imageLinks?.thumbnail} alt="" loading="lazy" decoding="async" />

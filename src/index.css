@@ -1,3 +1,10 @@
+#root {
+  width: 92%;
+  max-width: 1320px;
+  margin: auto;
+  position: relative;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -26,6 +33,9 @@ a {
 .items-center {
   align-items: center;
 }
+.items-start {
+  align-items: start;
+}
 .justify-center {
   justify-content: center;
 }
@@ -39,4 +49,8 @@ a {
 
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+.text-dark {
+  color: #202020;
 }

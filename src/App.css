@@ -6,3 +6,42 @@
   column-gap: 3%;
   padding: 20px 32px;
 }
+
+@media screen and (max-width: 1360px) {
+  .listing-container {
+    grid-template-columns: 22% 75%;
+  }
+  .book-list {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
+
+
+
+@media screen and (max-width: 980px) {
+  
+  .listing-container {
+    grid-template-columns: 32% 65% ;
+  }
+
+  .book-list {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+}
+
+@media screen and (max-width: 720px) {
+  .listing-container {
+    grid-template-columns: 100% ;
+    padding: 64px 12px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  
+
+  .book-list {
+    grid-template-columns: 100% !important;
+  }
+}
