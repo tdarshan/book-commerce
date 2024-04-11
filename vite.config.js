@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   server: {
     proxy: {
-      '/api': {
+      'api': {
         target: 'https://d1krvzwx5oquy1.cloudfront.net',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, 'https://d1krvzwx5oquy1.cloudfront.net'),
