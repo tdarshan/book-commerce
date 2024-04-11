@@ -1,0 +1,5 @@
+{
+    "rewrites": [
+      { "source": "/api/:path*", "destination": "https://d1krvzwx5oquy1.cloudfront.net/:path*" }
+    ]
+  }
