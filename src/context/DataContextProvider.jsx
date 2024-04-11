@@ -54,7 +54,8 @@ const DataContextProvider = ({children}) => {
                             })
                             .catch(err => console.log("Error fetching data : ", err));
 
-    }, [books, filter]);
+        console.log("object");
+    }, [filter]);
 
     // useEffect(() => {
     //     if (filter.author !== null) {
