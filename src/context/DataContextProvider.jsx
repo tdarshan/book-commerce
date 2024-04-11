@@ -17,7 +17,7 @@ const DataContextProvider = ({children}) => {
     useEffect(() => {
 
         let bookData = axios
-                        .get('/api/books.json')
+                        .get('https://d1krvzwx5oquy1.cloudfront.net/books.json')
                             .then(response => {
                                 // setBooks(response.data);
 
