@@ -54,15 +54,7 @@ const DataContextProvider = ({children}) => {
                             })
                             .catch(err => console.log("Error fetching data : ", err));
 
-        console.log("object");
     }, [filter]);
-
-    // useEffect(() => {
-    //     if (filter.author !== null) {
-    //         const filteredBooks = books.filter(book => book.volumeInfo.authors?.includes(filter.author));
-    //         setBooks(filteredBooks);
-    //     }
-    // }, [filter.author]);
 
     return (
         <DataContext.Provider value={{books, setBooks, book, setBook, currentBookId, setCurrentBookId, authors, setFilter, categories, setCategories}}>
