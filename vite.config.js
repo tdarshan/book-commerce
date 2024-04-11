@@ -8,7 +8,7 @@ export default defineConfig({
       '/api': {
         target: 'https://d1krvzwx5oquy1.cloudfront.net',
         changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api/, ''),
+        rewrite: (path) => path.replace(/^\/api/, 'https://d1krvzwx5oquy1.cloudfront.net'),
       }
     }
   },
