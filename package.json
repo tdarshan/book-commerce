@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "proxy": "https://d1krvzwx5oquy1.cloudfront.net",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
